@@ -1,0 +1,26 @@
+{
+    "development": {
+      "username": "postgres",
+      "password": "sukun123",
+      "database": "PhotoAlbum",
+      "host": "127.0.0.1",
+      "dialect": "postgres",
+      "port": "5432"
+    },
+    "test": {
+      "username": "postgres",
+      "password": "sukun123",
+      "database": "PhotoAlbumTest",
+      "host": "127.0.0.1",
+      "dialect": "postgres",
+      "port": "5432"
+    },
+    "production": {
+      "username": "root",
+      "password": null,
+      "database": "database_production",
+      "host": "127.0.0.1",
+      "dialect": "mysql",
+      "port": "5432"
+    }
+  }
